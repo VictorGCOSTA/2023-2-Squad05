@@ -16,7 +16,7 @@ jobs:
       - name: ls
         run: ls
       - name: install
-        run: npm ci
+        run: cd frontend && npm ci
       - name: Install Vercel CLI
         run: npm install --global vercel@canary
       - name: Pull Vercel Environment Information
