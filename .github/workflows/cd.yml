@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: trocando diretorio
-        run: cd frontend/
+        run: cd frontend
       - name: ls
         run: ls
       - name: install
