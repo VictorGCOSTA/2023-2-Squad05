@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next dev",
-    "lint": "next lint",
-    "vercel-build": "npm build" 
+    "lint": "next lint"
   },
   "dependencies": {
     "react": "^18",
