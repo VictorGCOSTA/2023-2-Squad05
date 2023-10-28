@@ -14,7 +14,7 @@ jobs:
       - name: docker
         run: docker compose up
       - name: rename and extract
-        run: cd diarios_spiders && ./main-script.sh
+        run: cd diarios_spiders && sudo ./main-script.sh
       - name: trocando diretorio
         run: cd frontend
       - name: ls
