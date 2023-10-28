@@ -12,7 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: docker
-        run: docker ps
+        run: docker compose up
+      - name: rename and extract
+        run: cd diarios_spiders && ./main-script.sh
       - name: trocando diretorio
         run: cd frontend
       - name: ls
